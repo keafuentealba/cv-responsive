@@ -1,0 +1,106 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  top: 0%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.section-experiencia .subti {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  background-color: #7cea9c;
+}
+
+.nav img {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 95%;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav a {
+  text-align: center;
+  padding-top: 5%;
+}
+
+ul.navigation-list a {
+  color: white;
+  display: inline-block;
+  width: 200px;
+}
+
+.section__container {
+  position: relative;
+  padding-left: 23%;
+  box-sizing: border-box;
+}
+
+.section__container .section-presentacion {
+  padding-bottom: 20%;
+}
+
+.section__container h2 {
+  margin-top: 6%;
+}
+
+.item-title {
+  margin-top: 10%;
+  font-size: 20px;
+  height: 1em;
+}
+
+.padded-paragraph {
+  padding-top: 15%;
+}
+
+.section__container hr {
+  margin-bottom: 5%;
+}
+
+.section-contacto form {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

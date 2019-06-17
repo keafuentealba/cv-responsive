@@ -1,0 +1,36 @@
+.section__container {
+    position: relative;
+    padding-left: 23% ; 
+    box-sizing: border-box;
+
+}
+
+.section__container .section-presentacion {
+    padding-bottom: 20%;
+
+}
+
+.section__container h2 {
+    margin-top: 6%;
+   
+}
+
+.item-title {
+    margin-top: 10%;
+    font-size: $x-large;
+    height: 1em;
+}
+
+.padded-paragraph {
+    padding-top: 15%; 
+}
+
+.section__container hr {
+    margin-bottom: 5%;
+
+}
+
+
+.section-contacto form {
+    width: 100%;
+}

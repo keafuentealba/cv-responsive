@@ -1,0 +1,34 @@
+.nav {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: $turquoise;
+
+}
+
+.nav img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 95%;
+    
+}
+
+.nav ul {
+    list-style: none;  
+     
+}
+
+.nav a {
+    text-align: center;
+    padding-top: 5%;
+}
+
+ul.navigation-list a {
+    color: white;
+    display: inline-block;
+    width: 200px;
+}
