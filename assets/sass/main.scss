@@ -3,6 +3,7 @@
 @import 'abstracts/mixins';
 @import 'abstracts/placeholders';
 
+@import 'vendors/bootstrap4-3.1/bootstrap';
 @import 'vendors/bootstrap';
 @import 'vendors/jquery-ui';
 
@@ -11,4 +12,3 @@
 
 @import 'layout/navigation';
 @import 'layout/section';
-
