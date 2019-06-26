@@ -1,36 +1,97 @@
-.section__container {
-    position: relative;
-    padding-left: 23% ; 
-    box-sizing: border-box;
-
+@media(min-width: 768px){
+    .section__content {
+        position: relative;
+        padding-left: 23% ; 
+        box-sizing: border-box;
+    
+    }
+    
+     .section__data {
+        padding-bottom: 20%;
+    
+    }
+    
+    .title__experience {
+        margin-top: 6%;
+       
+    }
+    
+    .section__item__title { 
+        width: 100%;
+        margin-top: 10%;
+        font-size: $x-large;
+        height: 1em;
+        display: flex;
+    
+    }
+    
+    .section__padded__paragraph {
+        padding-top: 15%; 
+    
+    }
+    
+    
+    .section__line {
+        margin-bottom: 5%;
+    
+    }
+    
+    
+    .section__form {
+        width: 100%;
+    }
+    
+    
+    
+    
 }
 
-.section__container .section-presentacion {
-    padding-bottom: 20%;
+@media(min-width: 365px) {
+    .section__content {
+        padding-top: 20%;
+        position: relative;
+        padding-top: 47% ; 
+        box-sizing: border-box;
+    
+    }
+    
+     .section__data {
+        padding-bottom: 20%;
+    
+    }
+    
+    .title__experience {
+        margin-top: 6%;
+       
+    }
+    
+    .section__item__title { 
+        width: 100%;
+        margin-top: 10%;
+        font-size: $x-large;
+        height: 1em;
+        display: flex;
+    
+    }
+    
+    .section__padded__paragraph {
+        padding-top: 15%; 
+    
+    }
+    
+    
+    .section__line {
+        margin-bottom: 5%;
+    
+    }
+    
+    
+    .section__form {
+        width: 100%;
+    }
+    
+    .section__content__icons {
+        display: none;
+    }
 
-}
-
-.section__container h2 {
-    margin-top: 6%;
-   
-}
-
-.item-title {
-    margin-top: 10%;
-    font-size: $x-large;
-    height: 1em;
-}
-
-.padded-paragraph {
-    padding-top: 15%; 
-}
-
-.section__container hr {
-    margin-bottom: 5%;
-
-}
-
-
-.section-contacto form {
-    width: 100%;
 }

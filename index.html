@@ -12,87 +12,113 @@
 </head>
 
 <body>
-    <nav class="nav container">
+    <nav class="nav container-fluid">
         <div class="row">
-            <div class="col-md-3">
+            <div class="nav__content__avatar col-12 col-md-3">
+                
+                <div><img  class="nav__image col-4" src="assets/img/avatar.jpg" alt="avatar-image"></div>
 
-                <div><img src="assets/img/avatar.jpg" alt="avatar-image"></div>
+            <div class="row">
+                <div class="nav__content__icons ml-2 mt-2 col-12 "> 
+                    <i class="fab fa-2x mr-2 fa-twitter-square"></i>
+                    <i class="fab fa-2x mr-2 fa-linkedin"></i>
+                    <i class="fab fa-2x mr-2 fa-github-square"></i>
+                </div>
+            </div>
+                
             
-                <ul class="navigation-list text-center">
-                    <li><a href="#">ACERCA DE MI</a></li>
-                    <li><a href="">EXPERIENCIA</a></li>
-                    <li><a href="">EDUCACIÓN</a></li>
-                    <li><a href="">HABILIDADES</a></li>
-                    <li><a href="">CONTACTO</a></li>
+                <ul class="navigation__list text-center">
+                    <li><a class="nav__a nav__about__me" href="#">ACERCA DE MI</a></li>
+                    <li><a class="nav__a nav__experience" href="#">EXPERIENCIA</a></li>
+                    <li><a class="nav__a nav__learning"href="#">EDUCACIÓN</a></li>
+                    <li><a class="nav__a nav__anav__skilss"href="#">HABILIDADES</a></li>
+                    <li><a class="nav__a nav__contact"href="#">CONTACTO</a></li>
                 </ul>
+
             </div>
 
-        </div>  
+        </div>   
 
     </nav>
 
-    <section class="section__container container">
+    <section class="section__content container">
 
-        <div class="section-presentacion">
+        <div class="section__data">
             <h1>VANESSA GALLEGUILLOS</h1>
         
             <h4>CALLE SIEMPRE VIVA 1857 / +56957656675/ correo.electronico@gmail.com</h4>
 
-            <p class="padded-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi iure, enim, porro animi nobis non neque velit amet illo ea praesentium, voluptate tenetur impedit repellendus suscipit accusantium aliquam cupiditate sit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae tenetur, iure placeat nesciunt atque vero fugit, minima deleniti quo cum ullam exercitationem eaque voluptatem voluptas dolor adipisci iusto. Maiores, reiciendis?</p>
-            <div class="icon"> 
-                <i class="fab 5x fa-twitter-square"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-github-square"></i>
+            <p class="section__padded__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi iure, enim, porro animi nobis non neque velit amet illo ea praesentium, voluptate tenetur impedit repellendus suscipit accusantium aliquam cupiditate sit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae tenetur, iure placeat nesciunt atque vero fugit, minima deleniti quo cum ullam exercitationem eaque voluptatem voluptas dolor adipisci iusto. Maiores, reiciendis?</p>
+            <div class="section__content__icons"> 
+                <i class="fab fa-3x mr-2 fa-twitter-square"></i>
+                <i class="fab fa-3x mr-2 fa-linkedin"></i>
+                <i class="fab fa-3x mr-2 fa-github-square"></i>
             </div>
 
         </div>
 
-        <hr>
+        <hr class="section__line">
 
-        <div class="section-experiencia">
+        <div class="section__job__experience">
             <div class="row">
-                <div class="col-md-12">
-                    <h2>EXPERIENCIA</h2>
+                <div class=" col-12 col-md-12">
+                    <h2 class="title__experience" >EXPERIENCIA</h2>
                 </div>
             </div>
-            <div class="row item-title">
-                <div class="col-md-8">
-                    <h3>DESAFIO LATAM</h3>
+
+            <div class="row ">
+                <div class="section__item__title col-md-12">
+
+                    <div class="col-md-8">
+                        <h3>DESAFIO LATAM</h3>
+                    </div>
+
+                    <div class="col-md-4">
+                        <p class="text-right">2017-2018</p>
+                    </div>
+
                 </div>
-                <div class="col-md-4">
-                    <p class="text-right">2017-2018</p>
+
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <p>Front-End.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti sed totam quas laborum, eaque quaerat molestiae eveniet! A assumenda animi, quae voluptatum, magni earum tempore quaerat nisi amet aliquam rem.</p>
+                    </div>
+
+                </div>
+
+            <div class="row ">
+                <div class="section__item__title col-md-12"> 
+
+                    <div class="col-12 col-md-8">
+                        <h3>RETAILADO</h3>
+                    </div>
+                        
+                    <div class="col-md-4">
+                        <p class="text-right">2018</p>
+                    </div>
+
                 </div>
             </div>
+                
             <div class="row">
-                <div class="col-md-12">
-                    <p>Front-End.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti sed totam quas laborum, eaque quaerat molestiae eveniet! A assumenda animi, quae voluptatum, magni earum tempore quaerat nisi amet aliquam rem.</p>
-                </div>
-            </div>
-            <div class="row item-title">
-                <div class="col-md-8">
-                    <h3>RETAILADO</h3>
-                </div>
-                <div class="col-md-4">
-                    <p class="text-right">2017-2018</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
+                <div class=" col-12 col-md-12">
                     <p>UI/UX Designer.</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti sed totam quas laborum, eaque quaerat molestiae eveniet! A assumenda animi, quae voluptatum, magni earum tempore quaerat nisi amet aliquam rem.</p>
                 </div>
             </div>
-            <div class="row item-title">
-                <div class="col-md-8">
-                    <h3>cafeteria haippe</h3>
+
+            <div class="row section__item__title">
+                <div class=" col-12 col-md-8">
+                    <h3>CAFETERIA HIPPE</h3>
                 </div>
                 <div class="col-md-4">
                     <p class="text-right">2017-2018</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class=" col-12 col-md-12">
                     <p>Barista.</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti sed totam quas laborum, eaque quaerat molestiae eveniet! A assumenda animi, quae voluptatum, magni earum tempore quaerat nisi amet aliquam rem.</p>
                 </div>
@@ -101,14 +127,14 @@
 
         <hr>
 
-        <div class="section-educacion">
+        <div class="section__education">
             <div class="row">
                 <div class="col-md-12">
                     <h2>EDUCACIÓN</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8">
+                <div class=" col-12 col-md-8">
                     <h3>DESAFIO LATAM</h3>
                 </div>
                 <div class="col-md-4">
@@ -121,7 +147,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8">
+                <div class=" col-12 col-md-8">
                     <h3>UI/UX ONLINE UNIVERSITY </h3>
                 </div>
                 <div class="col-md-4">
@@ -134,66 +160,67 @@
                 </div>
             </div> 
             <div class="row">
-                <div class="col-md-8">
+                <div class=" col-12 col-md-8">
                     <h3>UDDLA</h3>
                 </div>
                 <div class="col-md-4">
-                    <p class="text-right">2017</p>                    </div>
+                    <p class="text-right">2017</p>                    
                 </div>
-                <div class="row">
-                    <div class="col-md-12"> 
-                        <P>Diseñador Grafico</P>
-                    </div>
-                </div>     
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12"> 
+                    <P>Diseñador Grafico</P>
+                </div>
+            </div>     
         </div>
 
         <hr>
 
-        <div class="section-educacion">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>HABILIDADES</h2>
-                    </div>
+        <div class="section__education">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <h2>HABILIDADES</h2>
                 </div>
-                <div class="row">
-                    <div class="col-md-8">
-                        <h3>LENGUAJES DE PROGRAMACIÓN</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12"> 
-                        <P>Front-End</P>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-8">
-                        <h3>HERRAMIENTAS</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12"> 
-                        <P>Front-End</P>
-                    </div>
-                </div>   
             </div>
+            <div class="row">
+            <div class="col-md-8">
+                <h3>LENGUAJES DE PROGRAMACIÓN</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12"> 
+                    <P>Front-End</P>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <h3>HERRAMIENTAS</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12"> 
+                    <P>Front-End</P>
+                </div>
+            </div>
+        </div>
 
         <hr>
 
-        <div class="row section-contacto">
-            <div class="col-md-12">
+        <div class="row">
+            <div class="section__contact col-12 col-md-12">
                 <h2>CONTÁCTO</h2>
             </div>
             <div><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio ex eveniet vel enim consectetur aliquid quasi sunt vitae, velit quod quo laboriosam tempore? Adipisci, magni? Esse veritatis quis facilis eius!</p></div>
-            <form>
-                    <div class="form-group">
-                            <label for="exampleInputEmail1">Nombre</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu nombre">
-                            <label for="exampleInputEmail1">Corre Electrónico</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu correo">
-                                
-                          </div>
-                    
+            <form class="section__form">
                 <div class="form-group">
+                    <label for="exampleInputEmail1">Nombre</label>
+                    <input type="email" class="form-control col-md_12" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu nombre">
+                    <label for="exampleInputEmail1">Corre Electrónico</label>
+                    <input type="email" class="form-control col-md-12" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu correo">
+                        
+                </div>
+                
+                <div class="form__group">
                   <label for="exampleFormControlTextarea1">Mensaje</label>                     
                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Escribe tu Mensaje</textarea>
                 </div>
